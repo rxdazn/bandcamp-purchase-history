@@ -1,0 +1,14 @@
+{
+  "name": "Bandcamp Purchase history download",
+  "version": "1.0",
+  "description": "Download Bandcamp purchase history as CSV",
+  "manifest_version": 2,
+  "permissions": ["declarativeContent", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  }
+}
