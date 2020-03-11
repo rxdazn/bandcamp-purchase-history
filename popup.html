@@ -9,13 +9,19 @@
        }
 
        div#progress {
-         margin-top: 5px;
+         margin: 5px;
+       }
+
+       #download-link {
+         margin: 5px;
+         display: none;
        }
      </style>
    </head>
    <body>
      <button id="load">Load history</button>
      <div id="progress">Progress: <span id="progress-text"><span></div>
+     <div id="download"><a id="download-link">Download</a></div>
      <script src="popup.js"></script>
    </body>
 </html>
